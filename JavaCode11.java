@@ -33,13 +33,53 @@ public class JavaCode11 {
         // character to lower and upper class
         char letter = 'a';
         char upperCaseLetter = Character.toUpperCase(letter);
-        System.out.println("character to lower and upper class = " + upperCaseLetter);
+        System.out.println("Print array of characters = " + upperCaseLetter);
 
         // convert string to character
         String s = "h";
         char c = s.charAt(0);// returns 
         System.out.println("convert string to character = " + c);
 
+        // array of characters
+        char[] lotr_char_name_2 = new char[8];
+        lotr_char_name_2[0] = 'B';
+        lotr_char_name_2[1] = 'o';
+        lotr_char_name_2[2] = 'r';
+        System.out.println(lotr_char_name_2);
+
+        char[] lotr_char_name_3 = {'G','a','l','a','d','r','i','e','l'};
+        System.out.println(lotr_char_name_3);
+
+        // check if character is digit or letter
+        char char1 = 'a';
+        System.out.println("" + Character.isDigit(char1));
+        System.out.println("" + Character.isLetter(char1));
+
+        char char2 = '8';
+        System.out.println("" + Character.isDigit(char1));
+        System.out.println("" + Character.isLetter(char1));    
+
+        // arraylist character
+        List<Character> lotr_char_name_4 = new ArrayList<Character>();
+        // can also use 
+        // ArrayList<Character> lotr_char_name_4 = new ArrayList<Character>();
+        lotr_char_name_4.add('G');
+        lotr_char_name_4.add('i');
+        lotr_char_name_4.add('m');
+        lotr_char_name_4.add('l');
+        lotr_char_name_4.add('i');
+        System.out.println(lotr_char_name_4);
+
+        
+
+
+        
+        
+        
+
+
+
+    
 
 
 
